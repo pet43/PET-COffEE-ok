@@ -1,0 +1,181 @@
+/* ### 版面設計 ###*/
+body         {background-color: #E3DCCA; margin: 24px 10px;
+             font-family: 'Noto Serif TC', serif;}
+
+
+#container   {width: 960px;
+              margin: auto;} 
+
+#header      {margin-bottom: 10px;}
+
+#headerpost  {margin-bottom: 30px;}
+
+#content     {margin-bottom: 30px;
+              overflow: hidden;}
+
+.post    {float: left;
+          width: 216px;
+          margin-right: 32px;
+          margin-bottom: 25px;}
+
+.post:last-child   {margin-right: 0;}
+.post + .post + .post + .post {margin-right: 0;}
+
+
+/* ### HEADER LOGO ###*/
+#site   {float: left;}
+#site h1 {margin: 0;}
+#site img {vertical-align: bottom;
+            width: 180px;}
+
+/* ### HEADER NAV ###*/
+#nav  {float: right;
+       font-size: 20px;
+       font-family: 'Baloo Paaji 2', cursive; padding-top: 30px;}
+
+#nav ul  {margin: 0;
+          padding: 0;}
+
+#nav li  {list-style-type: none;
+          float: left;}
+
+#nav li a {display: block;
+           float: left;
+           margin-left: 20px;
+           margin-top: 20px;
+           text-decoration: none;
+           border-bottom: solid 3px transparent;
+           color: #5E5A55;}
+
+#nav li a:hover  {border-bottom-color: #8C9B91;}
+
+#header   {overflow: hidden;}
+
+/* ### HEADERPOST 圖片###*/
+
+#headerpost img  {float: left;
+                  vertical-align: bottom;
+                  width: 620px;}
+
+/* ### HEADERPOST LEAD###*/
+#headerpost #lead  {float: left;
+                    width: 300px;
+                    color: #575342;
+                    margin-left: 25px;}
+
+#headerpost h2     {margin: 20px 0;}
+
+#headerpost .more  {font-size: 18px;
+                    font-family: 'Comic Neue', cursive;
+                    text-align: right;}
+
+#headerpost .more a {color: #575342;
+                     background-image: url(img/more.png);
+                     background-size: 28px;
+                     background-repeat: no-repeat;
+                     background-position: right center;
+                     display: block;
+                     padding: 10px 40px 10px 0;
+                     text-decoration: none;}
+
+#headerpost   {background-color: #E7D6C5;
+               background: -webkit-gradient(linear, left top, left bottom, from(#E7D1C1), to(#E7D1C1));
+               background: -webkit-linear-gradient(#E7D1C1 0%, #E7D1C1 100%);
+               background: -moz-linear-gradient(#E7D1C1 0%, #E7D1C1 100%);
+               background: -o-linear-gradient(#E7D1C1 0%, #E7D1C1 100%);
+               background: -ms-linear-gradient(#E7D1C1 0%, #E7D1C1 100%);
+               background: linear-gradient(#E7D1C1 0%, #E7D1C1 100%);
+               overflow: hidden;}
+               
+
+/* ### POST 圖文 ###*/
+.post img {width: 216px;
+           height: auto;
+           vertical-align: bottom;
+           border-bottom-style:double;}
+
+.post h2  {font-size: 16px;
+           margin: 5px 0 0;}
+
+.post p   {font-size: 12px;
+           margin: 10px 0;}
+
+.post .data  {float: left;
+              margin: 0;}
+
+.post .more_s  {float: right;
+                color: #575342;
+                font-size: 13px;
+                font-family: 'Lobster', cursive;
+                background-color: #BDC8BC;
+                background-image: url(img/more.png);
+                background-size: 16px;
+                background-repeat: no-repeat;
+                background-position: 94% 50%;
+                padding: 3px 13px 3px 13px;
+                margin: 0;}
+
+.post a   {color: #4B3D30;
+           text-decoration: none;
+           display: block;
+           overflow: hidden;}
+.post a:hover {background-color: #F2DFCF}
+
+/* ### FOOTER ###*/
+#footer  {background-color: #BDC8BC;
+         padding: 5px;}
+
+
+#footer p  {float: left;
+            margin-top: 10px;
+            color: #575342}
+
+#iconmenu  {float: right;}
+
+#iconmenu ul  {margin: 0;
+               padding: 3px 0 0;}
+
+#iconmenu li  {display: inline;
+               list-style-type: none;}
+
+#iconmenu img  {border:none;
+                width: 28px;}
+
+#submenu       {clear: both;
+               font-family: 'Baloo Tamma 2', cursive;
+               font-size: 12px;
+               overflow: hidden;} 
+
+#submenu ul       {margin: 3px;
+               padding: 0;}
+
+#submenu li       {list-style-type: none;
+               float: left; }
+
+#submenu li a  {display: block;
+               width: auto;
+               border-right: solid 1px #ffffff;
+               text-align: center;
+               text-decoration: none;
+             color: #5E5A55;
+             font-weight: bold;
+             padding-right: 6px;
+             margin-right: 3px;}
+
+#submenu li:last-child a 
+            {border: none;}
+#submenu li + li + li a {border:none;}
+
+small  {font-size: 12px;
+        font-weight: bold;
+        display: block;
+        color: #575342;
+        margin-top: 10px;}
+
+
+
+
+
+
+
+
